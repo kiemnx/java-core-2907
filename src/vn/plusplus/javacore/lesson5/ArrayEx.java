@@ -1,5 +1,7 @@
 package vn.plusplus.javacore.lesson5;
 
+import vn.plusplus.javacore.lesson6.Student;
+
 public class ArrayEx {
     public static void main(String[] args) {
 
