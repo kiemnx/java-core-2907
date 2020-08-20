@@ -4,6 +4,7 @@ public class Student {
     String name;
     int age;
     float gpa;
+    String email;
 
     public Student(String name, int age, float gpa) {
         this.name = name;
