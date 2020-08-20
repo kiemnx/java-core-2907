@@ -8,6 +8,10 @@ public class Student {
 
    /* public Student() {
     }
+    String name;
+    int age;
+    float gpa;
+    String email;
 
     public Student(String name, int age, float gpa) {
         this.name = name;
@@ -45,9 +49,7 @@ public class Student {
     }
 
     public void setAge(int age) {
-        if(age > 0){
-            this.age = age;
-        }
+        this.age = age;
     }
 
     public float getGpa() {
@@ -58,3 +60,18 @@ public class Student {
         this.gpa = gpa;
     }
 }
+
+/*
+
+interface Aexample{
+    String getName();
+
+}
+
+class Example implements Aexample{
+
+    @Override
+    public String getName() {
+        return "Long";
+    }
+}*/
