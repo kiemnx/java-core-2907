@@ -13,4 +13,5 @@ public class Test62 {
         System.out.println("Tong so sinh vien DO: " + studentManagement.countDo());
         System.out.println("Tong so sinh vien TRUOT: " + studentManagement.countTruot());
     }
+
 }

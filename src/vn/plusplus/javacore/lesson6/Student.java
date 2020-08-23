@@ -59,6 +59,15 @@ public class Student {
     public void setGpa(float gpa) {
         this.gpa = gpa;
     }
+
+    public int tinhTong(int a, int b){
+        System.out.println("Day la ham tinh tong 2 so");
+        return a + b;
+    }
+    public int tinhTong(int a, int b, int c){
+        System.out.println("Day la ham tinh tong 3 so");
+        return a + b + c;
+    }
 }
 
 /*
