@@ -3,7 +3,8 @@ package vn.plusplus.javacore.chuabai.acitivity63;
 public class AppTest {
     public static void main(String[] args) {
         Store[] stores = new Store[5];
-        for(Store store : stores){
+        for(int i=0; i<stores.lenght; i++){
+            Store store = new Store();
             store.setAddress("");
             store.setStoreName("");
             SmartPhone[] smartPhones = new SmartPhone[10];
@@ -11,6 +12,7 @@ public class AppTest {
                 //Nhap thong tin cua tung loai smartphone
             }
             store.setPhones(smartPhones);
+            stores[i] = store;
         }
 
         StoreMangement storeMangement = new StoreMangement(stores.length, stores);
