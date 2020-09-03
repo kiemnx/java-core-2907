@@ -8,8 +8,11 @@ public class AppTest {
             store.setAddress("");
             store.setStoreName("");
             SmartPhone[] smartPhones = new SmartPhone[10];
-            for(SmartPhone  smartPhone : smartPhones){
+            for(int j=0; j<smartPhones.lenght; j++){
+                SmartPhone smartPhone = new SmartPhone();
+                smartPhone.setName("");
                 //Nhap thong tin cua tung loai smartphone
+                smartPhones[i] = smartPhone;
             }
             store.setPhones(smartPhones);
             stores[i] = store;
